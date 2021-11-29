@@ -4,6 +4,13 @@
     android:id="@+id/dashboard_nav_graph"
     app:startDestination="@id/homeFragment">
 
+    <include
+        app:graph="@navigation/entry_nav_graph"/>
+
+    <action
+        android:id="@+id/action_fragment_to_entry_nav_graph"
+        app:destination="@id/entry_nav_graph" />
+
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.meimtiaz.navigation.fragments.HomeFragment"
@@ -19,7 +26,9 @@
             app:destination="@id/navigationDrawerFragment" />
         <action
             android:id="@+id/action_homeFragment_to_argumentFragment"
-            app:destination="@id/argumentFragment" />
+            app:destination="@id/argumentFragment"
+            app:popUpTo="@id/argumentFragment"
+            app:popUpToInclusive="false"/>
     </fragment>
     <fragment
         android:id="@+id/bottomNavigationFragment"
