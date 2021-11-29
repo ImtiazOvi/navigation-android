@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/entry_nav_graph"
+    app:startDestination="@id/registrationFragment">
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.meimtiaz.navigation.fragments.RegistrationFragment"
+        android:label="RegistrationFragment" />
+
+    <activity
+        android:id="@+id/dashboardActivity"
+        android:name="com.meimtiaz.navigation.activities.DashboardNavHostActivity"
+        android:label="DashboardActivity" />
+</navigation>

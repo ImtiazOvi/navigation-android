@@ -7,5 +7,38 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.meimtiaz.navigation.fragments.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_bottomNavigationFragment"
+            app:destination="@id/bottomNavigationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_navigationDrawerFragment"
+            app:destination="@id/navigationDrawerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_argumentFragment"
+            app:destination="@id/argumentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottomNavigationFragment"
+        android:name="com.meimtiaz.navigation.fragments.BottomNavigationFragment"
+        android:label="BottomNavigationFragment" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.meimtiaz.navigation.fragments.ViewPagerFragment"
+        android:label="ViewPagerFragment" />
+    <fragment
+        android:id="@+id/navigationDrawerFragment"
+        android:name="com.meimtiaz.navigation.fragments.NavigationDrawerFragment"
+        android:label="NavigationDrawerFragment" />
+    <fragment
+        android:id="@+id/argumentFragment"
+        android:name="com.meimtiaz.navigation.fragments.ArgumentFragment"
+        android:label="ArgumentFragment" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
 </navigation>
