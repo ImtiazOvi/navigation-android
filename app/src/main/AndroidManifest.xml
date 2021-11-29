@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".activities.DashboardNavHostActivity"/>
         <activity android:name=".activities.PopUpNavHostActivity"/>
+        <activity android:name=".activities.ConditionalNavHostActivity"/>
     </application>
 
 </manifest>

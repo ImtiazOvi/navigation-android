@@ -10,7 +10,11 @@
         android:label="AFragment" >
         <action
             android:id="@+id/action_AFragment_to_BFragment"
-            app:destination="@id/BFragment" />
+            app:destination="@id/BFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
     </fragment>
 
     <fragment
@@ -19,7 +23,11 @@
         android:label="BFragment" >
         <action
             android:id="@+id/action_BFragment_to_CFragment"
-            app:destination="@id/CFragment" />
+            app:destination="@id/CFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
     </fragment>
 
     <fragment
@@ -30,6 +38,13 @@
             android:id="@+id/action_CFragment_to_AFragment"
             app:destination="@id/AFragment"
             app:popUpTo="@+id/a"
-            app:popUpToInclusive="true"/>
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+
+
+<!--        app:popUpToSaveState="true"-->
     </fragment>
 </navigation>

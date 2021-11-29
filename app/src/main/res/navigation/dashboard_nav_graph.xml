@@ -17,18 +17,37 @@
         android:label="HomeFragment">
         <action
             android:id="@+id/action_homeFragment_to_bottomNavigationFragment"
-            app:destination="@id/bottomNavigationFragment" />
+            app:destination="@id/bottomNavigationFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
         <action
             android:id="@+id/action_homeFragment_to_viewPagerFragment"
-            app:destination="@id/viewPagerFragment" />
+            app:destination="@id/viewPagerFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
         <action
             android:id="@+id/action_homeFragment_to_navigationDrawerFragment"
-            app:destination="@id/navigationDrawerFragment" />
+            app:destination="@id/navigationDrawerFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
         <action
             android:id="@+id/action_homeFragment_to_argumentFragment"
             app:destination="@id/argumentFragment"
             app:popUpTo="@id/argumentFragment"
-            app:popUpToInclusive="false"/>
+            app:popUpToInclusive="false"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"/>
+        <action
+            android:id="@+id/action_homeFragment_to_entry_nav_graph2"
+            app:destination="@id/entry_nav_graph" />
     </fragment>
     <fragment
         android:id="@+id/bottomNavigationFragment"

@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.meimtiaz.navigation.databinding.FragmentHomeBinding
-import com.meimtiaz.navigation.utils.navigateDashboardActivity
+import com.meimtiaz.navigation.utils.navigateConditionalNavHostActivity
 import com.meimtiaz.navigation.utils.navigatePopUpNavHostActivity
 
 class HomeFragment : Fragment() {
@@ -33,6 +33,10 @@ class HomeFragment : Fragment() {
 
         binding.popUpToBtn.setOnClickListener {
             requireActivity().navigatePopUpNavHostActivity()
+        }
+
+        binding.conditionalScreenBtn.setOnClickListener {
+            requireActivity().navigateConditionalNavHostActivity()
         }
 
         binding.navigateNavigationDrawerBtn.setOnClickListener {
