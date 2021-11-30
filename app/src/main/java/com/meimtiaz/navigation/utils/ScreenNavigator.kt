@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import com.meimtiaz.navigation.activities.ConditionalNavHostActivity
 import com.meimtiaz.navigation.activities.DashboardNavHostActivity
+import com.meimtiaz.navigation.activities.DesignNavigationNavHostActivity
 import com.meimtiaz.navigation.activities.PopUpNavHostActivity
 
 
@@ -21,6 +22,12 @@ fun Activity.navigatePopUpNavHostActivity() {
 fun Activity.navigateConditionalNavHostActivity() {
     startActivity(
         Intent(this, ConditionalNavHostActivity::class.java)
+    )
+}
+
+fun Activity.navigateDesignNavigationNavHostActivity() {
+    startActivity(
+        Intent(this, DesignNavigationNavHostActivity::class.java)
     )
 }
 

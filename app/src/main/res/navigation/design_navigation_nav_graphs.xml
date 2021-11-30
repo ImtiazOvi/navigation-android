@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/design_navigation_nav_graphs"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.meimtiaz.navigation.fragments.designnavigationgraph.TitleFragment"
+        android:label="TitleFragment" >
+        <action
+            android:id="@+id/action_titleFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.meimtiaz.navigation.fragments.designnavigationgraph.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_matchFragment"
+            app:destination="@id/matchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/matchFragment"
+        android:name="com.meimtiaz.navigation.fragments.designnavigationgraph.MatchFragment"
+        android:label="MatchFragment" >
+        <action
+            android:id="@+id/action_matchFragment_to_inGameFragment"
+            app:destination="@id/inGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inGameFragment"
+        android:name="com.meimtiaz.navigation.fragments.designnavigationgraph.InGameFragment"
+        android:label="InGameFragment" >
+        <action
+            android:id="@+id/action_inGameFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment"
+            app:popUpTo="@id/inGameFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_inGameFragment_to_resultsWinnerFragment"
+            app:destination="@id/resultsWinnerFragment"
+            app:popUpTo="@id/inGameFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.meimtiaz.navigation.fragments.designnavigationgraph.GameOverFragment"
+        android:label="GameOverFragment" >
+        <action
+            android:id="@+id/action_gameOverFragment_to_inGameFragment"
+            app:destination="@id/inGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultsWinnerFragment"
+        android:name="com.meimtiaz.navigation.fragments.designnavigationgraph.ResultsWinnerFragment"
+        android:label="ResultsWinnerFragment" >
+        <action
+            android:id="@+id/action_resultsWinnerFragment_to_inGameFragment"
+            app:destination="@id/inGameFragment" />
+    </fragment>
+</navigation>

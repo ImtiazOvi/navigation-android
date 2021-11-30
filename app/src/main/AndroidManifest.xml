@@ -21,6 +21,7 @@
         <activity android:name=".activities.DashboardNavHostActivity"/>
         <activity android:name=".activities.PopUpNavHostActivity"/>
         <activity android:name=".activities.ConditionalNavHostActivity"/>
+        <activity android:name=".activities.DesignNavigationNavHostActivity"/>
     </application>
 
 </manifest>

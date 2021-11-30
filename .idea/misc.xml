@@ -7,6 +7,7 @@
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_entry.xml" value="0.35989583333333336" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_nav_host_conditional.xml" value="0.2609375" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_nav_host_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_nav_host_design_navigation.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_nav_host_entry.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_nav_host_pop_up.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/activity_nav_host_pop_upy.xml" value="0.3145833333333333" />
@@ -15,11 +16,17 @@
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_b.xml" value="0.3026041666666667" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_bottom_navigation.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_c.xml" value="0.3145833333333333" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_game_over.xml" value="0.3" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_game_title.xml" value="0.31197916666666664" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_home.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_in_game.xml" value="0.31197916666666664" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_login_fragment.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_main_fragment.xml" value="0.2609375" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_match.xml" value="0.31197916666666664" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_navigation_drawer.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_register.xml" value="0.31197916666666664" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_registration.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_results_winner.xml" value="0.31197916666666664" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_user_profile_fragment.xml" value="0.2609375" />
         <entry key="..\:/Users/USER/Desktop/jatri/navigationandroid/app/src/main/res/layout/fragment_viewpager.xml" value="0.20104166666666667" />
       </map>
